@@ -1,0 +1,27 @@
+<html>
+<head><title>Graph Library</title></head>
+<body>
+	<div class ="main" id="main">
+		<table id='table1' border='0' width='450' cellpadding="0" cellspacing="0" style="border-collapse:collapse;">
+		    <tr>
+		    	<td>S.No</td>
+		    	<td>Data Name</td>
+		    	<td>Value</td>
+		    	<td>Edit</td>
+		    	<td>Delete</td>
+		    </tr>
+		</table>
+		<canvas id="can" height="400" width="600" style="background:'blue'; float:left; display:inline; margin-bottom:100px;padding-left:50px;border:1px solid black;margin-left:50px; margin-top:20px"></canvas>
+		<canvas id="canvas" height="400" width="600" style="display:inline; float:left; margin-bottom:100px;padding-left:50px;border:1px solid black; margin-left:50px"></canvas>
+		<canvas id ="lineCanvas" height="400" width="600" style="display:inline;float:left;margin-bottom:100px;border:1px solid black; margin-left:50px;padding-left:50px;"></canvas>
+		<canvas id ="lineGraph" height="400" width="600" style="display:inline;float:left;margin-bottom:100px;border:1px solid black; margin-left:50px;padding-left:50px;"></canvas>
+		<!-- <canvas id="canvas" height="300" width="400"/>
+		</canvas -->
+	</div>
+	<script type="text/javascript" src="javascript/script.js">
+	</script>
+	<script type="text/javascript">
+		var Chart = new Chart (document.getElementById('main'));
+	</script>
+</body>
+</html>
